@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>bg.tu_sofia</groupId>
+		<artifactId>graduation</artifactId>
+		<version>1.0</version>
+	</parent>
+
+	<groupId>bg.tu_sofia.graduation</groupId>
+	<artifactId>nature</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0</version>
+	<name>nature</name>
+	<url>http://tu-sofia.org</url>
+
+	<dependencies>
+		<dependency>
+			<groupId>bg.tu_sofia.graduation</groupId>
+			<artifactId>robot</artifactId>
+			<version>1.0</version>
+		</dependency>
+	</dependencies>
+</project>
